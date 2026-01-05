@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android_MaterialStepperView</string>
+    <string-array name="step_titles">
+        <item>Login</item>
+        <item>Verification</item>
+        <item>Payment</item>
+        <item>Finish</item>
+    </string-array>
+</resources>

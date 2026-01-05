@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MaterialStepperView">
+
+        <!-- Steps -->
+        <attr name="stepCount" format="integer"/>
+        <attr name="currentStep" format="integer"/>
+
+        <!-- Titles -->
+        <attr name="stepTitles" format="reference"/>
+        <attr name="titleColor" format="color"/>
+        <attr name="titleSize" format="dimension"/>
+
+        <!-- Colors -->
+        <attr name="activeColor" format="color"/>
+        <attr name="completedColor" format="color"/>
+        <attr name="pendingColor" format="color"/>
+
+        <!-- Sizes -->
+        <attr name="stepRadius" format="dimension"/>
+        <attr name="lineThickness" format="dimension"/>
+
+        <!-- Orientation -->
+        <attr name="stepOrientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+
+        <!-- Animation -->
+        <attr name="animateSteps" format="boolean"/>
+
+    </declare-styleable>
+
+</resources>
+
